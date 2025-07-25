@@ -292,7 +292,7 @@
 
       <!-- deal section -->
 
-      <section class="deal text-center max-w-[1140px] mx-auto">
+      <section class="deal text-center max-w-[1140px] mx-auto px-3">
         <h2 class="deal-title text-2xl font-bold py-4 sm:text-6xl">
           <span class="text-orange-500">Latest </span> Deals
         </h2>
@@ -309,23 +309,29 @@
         <div class="offer sm:flex sm:gap-3 sm:my-6">
           <div class="first-offer sm:w-[35%] sm:flex sm:flex-col sm:gap-3">
             <div
-              class="1st-offer border bg-[url(./assets/deal-bloom.png)] bg-size-[100%_100%] bg-no-repeat mb-4 rounded-xl py-8 sm:mb-0"
+              class="1st-offer border bg-[url('./assets/deal-bloom.png')] bg-[length:100%_100%] bg-no-repeat mb-4 rounded-xl sm:mb-0 py-6"
             >
-              <span
-                class="font-bold text-2xl sm:text-3xl text-white border-r-4 border-r-white pr-2"
-                >60% Off</span
-              >
-              <span class="font-bold text-2xl sm:text-3xl text-white"
-                >Bloom Plant</span
-              >
               <div>
-                <button class="py-4">
-                  <a
-                    class="font-semibold text-xl text-white underline underline-offset-6"
-                    href=""
-                    >Shop Now</a
+                <div class="items-center gap-3 mb-4">
+                  <span
+                    class="font-bold text-2xl sm:text-3xl text-white border-r-4 border-white pr-2"
                   >
-                </button>
+                    60% Off
+                  </span>
+                  <span class="font-bold text-2xl sm:text-3xl text-white">
+                    Bloom Plant
+                  </span>
+                </div>
+                <div>
+                  <button class="py-4">
+                    <a
+                      class="font-semibold text-xl text-white underline underline-offset-6"
+                      href="#"
+                    >
+                      Shop Now
+                    </a>
+                  </button>
+                </div>
               </div>
             </div>
 
